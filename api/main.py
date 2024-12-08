@@ -6,8 +6,8 @@ from typing import Any
 project_root: str = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
-print(f"Project Root: {project_root}")
-print(f"Python Path: {sys.path.insert(0, project_root)}")
+# print(f"Project Root: {project_root}")
+# print(f"Python Path: {sys.path.insert(0, project_root)}")
 
 from fastapi import APIRouter, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -102,4 +102,10 @@ if __name__ == "__main__":
     logger.warning("Running in development mode. Do not run like this in production.")
     import uvicorn
 
-    uvicorn.run("main:app", host="localhost", port=8012, log_level="debug", reload=True)
+    uvicorn.run(
+        "main:app",
+        host="localhost",
+        port=settings.FASTAPI_PORT,
+        log_level="debug",
+        reload=True,
+    )

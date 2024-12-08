@@ -102,4 +102,4 @@ if __name__ == "__main__":
     logger.warning("Running in development mode. Do not run like this in production.")
     import uvicorn
 
-    uvicorn.run("main:app", host="localhost", port=8002, log_level="debug", reload=True)
+    uvicorn.run("main:app", host="localhost", port=8012, log_level="debug", reload=True)

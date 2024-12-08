@@ -1,0 +1,17 @@
+test_data:
+  file: ./api/tests/data/test_data.xlsx
+  sheets:
+    - sheet_name_0: Sheet1
+    - sheet_name_1: test_user
+    - sheet_name_2: test_post
+  columns_user:
+    - column_name_user_0: username
+    - column_name_user_1: email
+    - column_name_user_2: password
+    - column_name_user_3: hashed_password
+    - column_name_user_4: is_active
+    - column_name_user_5: is_superuser
+  columns_post:
+    - column_name_post_0: title
+    - column_name_post_1: content
+    - column_name_post_2: published

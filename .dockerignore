@@ -1,0 +1,14 @@
+venv/
+.git
+.tox
+*.ipynb
+*.log
+*/.circleci*
+jupyter_notebooks*
+__pycache__
+*/venv*
+*/.ipynb*
+*/.log*
+*/.circleci*
+project_structure.txt
+faa-package/

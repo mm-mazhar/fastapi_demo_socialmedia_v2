@@ -51,7 +51,7 @@ class Settings(BaseSettings):
             "description": "Render server with HTTPS",
         },
         {
-            "url": "http://localhost:8001",
+            "url": "http://localhost:8002",
             "description": "Local server with HTTPS",
         },
     ]

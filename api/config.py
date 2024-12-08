@@ -47,6 +47,10 @@ class Settings(BaseSettings):
         #     "description": "NGROK server with HTTPS",
         # },
         {
+            "url": "https://fastapi-demo-socialmedia-v2.onrender.com",
+            "description": "Render server with HTTPS",
+        },
+        {
             "url": "http://localhost:8001",
             "description": "Local server with HTTPS",
         },
